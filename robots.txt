@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jdevapphub-crypto.github.io/UniApply-SA/sitemap.xml
