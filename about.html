@@ -3,33 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Us - UniApplySA</title>
+<title>About Us - UniApplySA (Pty) Ltd</title>
+<link rel="icon" type="image/png" href="icon.png">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
-body{background:#f8fafc} 
-nav{background:white;padding:14px 20px;display:flex;justify-content:space-between;box-shadow:0 2px 10px #0001}
-nav a{margin-left:15px;text-decoration:none;color:#111;font-weight:700}
-.hero{padding:40px 20px;text-align:center;background:#0f172a;color:white}
-.card{background:white;margin:20px;border-radius:16px;padding:20px;box-shadow:0 4px 12px #0001}
+body{background:#f8fafc;color:#1e293b;line-height:1.7}
+nav{background:white;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 1px 4px rgba(0,0,0,0.05)}
+nav a{margin-left:15px;text-decoration:none;color:#111;font-weight:700;font-size:14px}
+nav a.active{color:#1e3a5f}
+.card{background:white;margin:20px auto;max-width:800px;border-radius:16px;padding:30px 24px}
+h1{font-size:26px;color:#0f172a}
+h2{font-size:16px;color:#0f172a;margin-top:24px;margin-bottom:8px}
+p,li{font-size:14px;color:#475569}
+ul{padding-left:18px}
+.badge{display:inline-block;background:#dcfce7;color:#166534;padding:6px 12px;border-radius:20px;font-size:12px;font-weight:700;margin-top:10px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}
+.box{background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:14px}
+.small{color:#94a3b8;font-size:12px;margin-top:20px;line-height:1.5}
 </style>
 </head>
 <body>
-<nav><b>🎓 UniApplySA</b><div><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a></div></nav>
-<div class="hero">
-  <h1>About UniApplySA</h1>
-  <p style="color:#94a3b8;margin-top:10px">Helping students across all provinces of South Africa</p>
-</div>
+
+<nav><b>UniApplySA</b><div><a href="index.html">Home</a><a href="about.html" class="active">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div></nav>
+
 <div class="card">
-  <h2>Our Mission</h2>
-  <p style="margin-top:10px;color:#475569;line-height:1.6">
-  UniApplySA was built to help Grade 12 learners from all provinces apply to universities across South Africa in one place.<br><br>
-  No matter where you are in South Africa, we make applications simple. We cover all 26 public universities, NSFAS, CAO, prospectus, APS calculation and application tracking.<br><br>
-  Built by JDev App Craft Co. to serve learners nationwide.
-  </p>
+<h1>About UniApplySA</h1>
+<p style="color:#64748b">South Africa's university application helper - 26 Universities & 50 TVET Colleges in one place.</p>
+<span class="badge">Registered Company: UniApplySA (Pty) Ltd - South Africa</span>
+
+<h2>Our Mission</h2>
+<p>We help Grade 11, Grade 12 and post-matric students from all 9 provinces apply to public universities and TVET colleges without confusion. Many students miss deadlines or pay wrong fees because information is scattered. We put everything in one simple app.</p>
+
+<h2>What We Do</h2>
+<div class="grid">
+<div class="box"><b>One Place for All 26 Universities</b><br>UCT, Wits, UP, UJ, Stellenbosch, UNISA, DUT, CPUT and more. Direct links to official portals.</div>
+<div class="box"><b>50 TVET Colleges Listed</b><br>Boland, Buffalo City, College of Cape Town, Ekurhuleni and all others.</div>
+<div class="box"><b>Free Tools</b><br>APS Calculator, NSFAS portal link, Application Guide and checklist.</div>
+<div class="box"><b>Support 08:00-21:00</b><br>We reply on WhatsApp and Email within 2 hours. We never ask for your university password.</div>
 </div>
-<div class="card">
-  <h3>We Serve All Provinces</h3>
-  <p style="color:#475569;margin-top:8px">✅ All provinces covered<br>✅ All 26 public universities<br>✅ APS Calculator<br>✅ NSFAS & Bursary help<br>✅ Closing dates & Prospectus</p>
+
+<h2>Our Company</h2>
+<p>
+<b>Legal Name:</b> UniApplySA 2026/515737/07 (Pty) Ltd<br>
+<b>Trading As:</b> UniApplySA<br>
+<b>Parent Company:</b> JDev App Craft Co. / Joheliv Labs<br>
+<b>Coverage:</b> All Provinces, South Africa<br>
+<b>Founded:</b> 2026<br>
+<b>Email:</b> uniapplysa7@gmail.com<br>
+<b>WhatsApp:</b> 073 172 5505
+</p>
+
+<h2>Important Disclaimer</h2>
+<p>UniApplySA (Pty) Ltd is an independent information portal. We are <b>NOT</b> affiliated with any university, TVET college, or NSFAS. We do not charge for university application information.</p>
+<p>Official application fees are paid directly to universities via their official websites. We only guide you to apply correctly. All applications are submitted via official university portals.</p>
+
+<p class="small">Built to help South African youth access higher education. © 2026 UniApplySA (Pty) Ltd. All rights reserved.</p>
 </div>
+
 </body>
 </html>
